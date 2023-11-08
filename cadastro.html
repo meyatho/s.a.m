@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;0,800;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <title>S.A.M - Faça seu cadastro!</title> <!--### = nome do site-->
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>Já possui uma conta?</li>
+                <li><a href="./login.html">Entrar</a></li>
+                <li>ou</li>
+                <li><a href="./index.html">Voltar à tela de início</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-cadastro">
+        <div class="form-image">
+            <img src="./img/icon.png">
+        </div>
+        <div class="form">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="nome">Nome da empresa</label>
+                        <input id="nome" type="text" name="nome" placeholder="Digite o nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="cnpj">CNPJ</label>
+                        <input id="cnpj" type="text" name="cnpj" placeholder="Digite o CNPJ" required>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" type="tel" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                    </div>
+                    <br>
+                    <div class="input-box">
+                        <label for="senha">Senha</label>
+                        <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirme sua Senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite novamente" required>
+                    </div>
+                    <br>
+                </div>
+                <div class="continue-button">
+                    <button><a href="login.html">Confirmar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
